@@ -41,9 +41,9 @@ dependencies:
     google_maps_flutter: ^2.5.0
     form_builder_extra_fields: ^10.1.0
     flutter_typeahead: ^4.8.0
-    google_maps_webapi: ^0.0.22
-    geolocator: ^10.1.0
-    http: ^1.1.0
+    google_maps_webapi: ^0.0.21
+    geolocator: ^9.0.2
+    http: ^0.13.5
     logger: ^2.0.2+1
 
 dev_dependencies:
