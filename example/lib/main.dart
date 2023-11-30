@@ -122,7 +122,7 @@ class _MyAppState extends State<MyApp> {
                   MaterialPageRoute(
                     builder: (context) {
                       return MapLocationPicker(
-                        apiKey: "AIzaSyCx1q8vbZ1EgH1IB2WloRrxpgLT7Q05t6k",
+                        apiKey: YOUR_API_KEY,
                         popOnNextButtonTaped: true,
                         currentLatLng: const LatLng(29.146727, 76.464895),
                         onNext: (GeocodingResult? result) {
