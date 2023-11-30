@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
         children: [
           PlacesAutocomplete(
             searchController: _controller,
-            apiKey: "AIzaSyCx1q8vbZ1EgH1IB2WloRrxpgLT7Q05t6k",
+            apiKey: YOUR_API_KEY,
             mounted: mounted,
             hideBackButton: true,
             onGetDetailsByPlaceId: (PlacesDetailsResponse? result) {
